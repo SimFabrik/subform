@@ -11,7 +11,8 @@ defined('APPLICATION_ENV')
 // Ensure library/ is on include_path
 set_include_path(implode(PATH_SEPARATOR, array(
     realpath(APPLICATION_PATH . '/../library'),
-    'c:\xampp\libraries\zf\1.x\1.12.3\library',
+//     'c:\xampp\libraries\zf\1.x\1.12.3\library',
+    __DIR__ . '/../../zf/1.x/1.12.3/library',
     get_include_path(),
 )));
 
