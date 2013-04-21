@@ -53,7 +53,7 @@ h1 {
 	margin: 0.5em 0;
 }
 h3 {
-	margin: 0.5em 0 1em;
+	margin: 0.5em 0 0.5em;
 }
 p {
 	margin: 5px 0 10px;
@@ -100,6 +100,12 @@ ul.references li {
 ul.repository li {
     padding: 0 0 0 18px;
     background-image: url(../i/ico/bijou/Box.png);
+    background-repeat: no-repeat;
+    background-position: 2px 4px;
+}
+ul.hosting li {
+    padding: 0 0 0 18px;
+    background-image: url(../i/ico/bijou/Globe.png);
     background-repeat: no-repeat;
     background-position: 2px 4px;
 }
