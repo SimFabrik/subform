@@ -6,22 +6,22 @@
 <?php
     // add default styles
     $this->headLink()
-        ->appendStylesheet($this->baseUrl() . '/css/blueprint/screen.css', 'screen, projection')
-        ->appendStylesheet($this->baseUrl() . '/css/blueprint/print.css', 'print')
-        ->appendStylesheet($this->baseUrl() . '/css/blueprint/ie.css', 'screen, projection', 'lt IE 8')
-        ->appendStylesheet($this->baseUrl() . '/css/html5.css', 'screen, projection', 'lt IE 9')
-        ->appendStylesheet($this->baseUrl() . '/css/style.css')
-        ->appendStylesheet($this->baseUrl() . '/css/general.css')
-        ->appendStylesheet($this->baseUrl() . '/css/style.css')
-        ->appendStylesheet($this->baseUrl() . '/css/ie6.css', 'screen, projection', 'IE 6')
-        ->appendStylesheet($this->baseUrl() . '/css/ie.css', '', 'IE')
+        ->appendStylesheet('/css/blueprint/screen.css', 'screen, projection')
+        ->appendStylesheet('/css/blueprint/print.css', 'print')
+        ->appendStylesheet('/css/blueprint/ie.css', 'screen, projection', 'lt IE 8')
+        ->appendStylesheet('/css/html5.css', 'screen, projection', 'lt IE 9')
+        ->appendStylesheet('/css/style.css')
+        ->appendStylesheet('/css/general.css')
+        ->appendStylesheet('/css/style.css')
+        ->appendStylesheet('/css/ie6.css', 'screen, projection', 'IE 6')
+        ->appendStylesheet('/css/ie.css', '', 'IE')
         ;
 
     $this->headScript()
         ->prependFile('http://html5shim.googlecode.com/svn/trunk/html5.js', 'text/javascript', array(
             'conditional' => 'lt IE 9'
         ))
-        ->prependFile($this->baseUrl() . '/js/jquery-1.9.1.min.js')
+        ->prependFile('/js/jquery-1.9.1.min.js')
         ;
 ?>
 <?php echo $this->headTitle(); ?>
