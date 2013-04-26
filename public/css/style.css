@@ -103,6 +103,12 @@ ul.repository li {
     background-repeat: no-repeat;
     background-position: 2px 4px;
 }
+ul.hosting li {
+    padding: 0 0 0 18px;
+    background-image: url(../i/ico/bijou/Globe.png);
+    background-repeat: no-repeat;
+    background-position: 2px 4px;
+}
 /** Content - end **/
 
 
@@ -186,5 +192,14 @@ footer {
 
 footer p {
 	margin-bottom: 5px;
+}
+
+footer ul.list {
+	float: right;
+	display: block;
+	margin: 5px 10px 5px 0;
+}
+footer ul.list li {
+
 }
 /** Footer - end **/
