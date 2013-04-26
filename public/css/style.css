@@ -193,4 +193,13 @@ footer {
 footer p {
 	margin-bottom: 5px;
 }
+
+footer ul.list {
+	float: right;
+	display: block;
+	margin: 5px 10px 5px 0;
+}
+footer ul.list li {
+
+}
 /** Footer - end **/

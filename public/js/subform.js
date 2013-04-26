@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Handler for .ready() called.
     $('form ul ul ul li > button.remove').click(function () {
-        $(this).parent().parent().parent().parent().remove();
+        removeProduct(this);
     });
 
     $('form ul ul li > button.add').click(function () {
